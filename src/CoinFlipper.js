@@ -1,38 +1,60 @@
 import React, { Component } from 'react'
 import Coin from './Coin';
 import './CoinFlipper.css';
+import options from "./consants";
+import {getRandomElFormArr, findCountInArray} from "./helpers";
 
 class CoinFlipper extends Component {
   constructor(props){
     super(props);
-    // State üzerinde paranın başlangıçtaki durumunu veriyoruz, başlangıçta "tura" olsun.
-    // Daha sonra şu anda paranın dönüp dönmeme durumunu da veriyoruz, başlangıçta para atılmamış olduğundan "false" olarak verdik.
     this.state = {
-        side: "tura",
-        donuyor: false
+        side: options[0],
+        donuyor: false,
+        gelenler: []
     }
   }
   handleClick = () => {
-    // "At!" butonuna tıkladığımızda paranın dönmesini istiyoruz, bu yüzden "donuyor" durumunu "true" yapıyoruz.
     this.setState({donuyor: true});
-    // 1 saniye kadar dönmesi yeterli, bu yüzden 1 saniye sonra "donuyor" durmunu tekrar "false" yapıyoruz.
-    setTimeout(() => this.setState({donuyor: false}), 1000);
+    const randomEl = getRandomElFormArr(options);
+    setTimeout(() => this.setState({donuyor: false}, () => {
+        this.setState({
+            side: randomEl,
+            gelenler: [...this.state.gelenler].concat([randomEl])
+        });
+    }), 1000);
   };
 
   render(){
     return (
       <div className="CoinFlipper">
-        <h1>Yazı mı Tura mı?</h1>
+        <h1>
+            {
+                options.map((option) => {
+                    if(options[options.length -1] === option){
+                        return <span> {option} </span>
+                    }else {
+                        return <span>{option} ya da</span>
+                    }
+                })
+            }
+        </h1>
         <Coin side={this.state.side} donuyor={this.state.donuyor} />
         <button onClick={this.handleClick} >At!</button>
         <p>
             Toplam
-            <strong> 5 </strong>
+            <strong> {this.state.gelenler.length} </strong>
             atıştan
-            <strong> 3 </strong>
-            ü tura
-            <strong> 2 </strong>
-            si yazı geldi.</p>
+            <div>
+                {
+                    options.map(option => {
+                        return <div key={option}>
+                        {findCountInArray(this.state.gelenler, option)}
+                        <span> {option} </span>
+                    </div>
+                    })
+                }
+            </div>
+        </p>
       </div>
     )
   }
