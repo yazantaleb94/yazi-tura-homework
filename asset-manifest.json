@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/css/main.6f842b94.chunk.css",
-    "main.js": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/js/main.aebce7de.chunk.js",
-    "main.js.map": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/js/main.aebce7de.chunk.js.map",
-    "runtime~main.js": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/js/runtime~main.948bf3f9.js",
-    "runtime~main.js.map": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/js/runtime~main.948bf3f9.js.map",
-    "static/js/2.5af7eab3.chunk.js": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/js/2.5af7eab3.chunk.js",
-    "static/js/2.5af7eab3.chunk.js.map": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/js/2.5af7eab3.chunk.js.map",
-    "index.html": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/index.html",
-    "precache-manifest.d63eee040d7883ba5edb18a1f4e8c451.js": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/precache-manifest.d63eee040d7883ba5edb18a1f4e8c451.js",
-    "service-worker.js": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/service-worker.js",
-    "static/css/main.6f842b94.chunk.css.map": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/css/main.6f842b94.chunk.css.map",
-    "static/media/1-lira-tura.png": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/media/1-lira-tura.7c42669a.png",
-    "static/media/1-lira-yazi.png": "/react-yazi-tura-uygulamasi-odev-yazantaleb94/static/media/1-lira-yazi.9b70882e.png"
+    "main.css": "/yazi-tura-homework/static/css/main.6f842b94.chunk.css",
+    "main.js": "/yazi-tura-homework/static/js/main.bb5df3e5.chunk.js",
+    "main.js.map": "/yazi-tura-homework/static/js/main.bb5df3e5.chunk.js.map",
+    "runtime~main.js": "/yazi-tura-homework/static/js/runtime~main.0a62a07d.js",
+    "runtime~main.js.map": "/yazi-tura-homework/static/js/runtime~main.0a62a07d.js.map",
+    "static/js/2.5af7eab3.chunk.js": "/yazi-tura-homework/static/js/2.5af7eab3.chunk.js",
+    "static/js/2.5af7eab3.chunk.js.map": "/yazi-tura-homework/static/js/2.5af7eab3.chunk.js.map",
+    "index.html": "/yazi-tura-homework/index.html",
+    "precache-manifest.42f09151014284a0e51bfce3df31741e.js": "/yazi-tura-homework/precache-manifest.42f09151014284a0e51bfce3df31741e.js",
+    "service-worker.js": "/yazi-tura-homework/service-worker.js",
+    "static/css/main.6f842b94.chunk.css.map": "/yazi-tura-homework/static/css/main.6f842b94.chunk.css.map",
+    "static/media/1-lira-tura.png": "/yazi-tura-homework/static/media/1-lira-tura.7c42669a.png",
+    "static/media/1-lira-yazi.png": "/yazi-tura-homework/static/media/1-lira-yazi.9b70882e.png"
   }
 }
