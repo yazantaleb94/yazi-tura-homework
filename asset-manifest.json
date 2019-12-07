@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/yaziTura/static/css/main.6f842b94.chunk.css",
+    "main.js": "/yaziTura/static/js/main.82be9fcb.chunk.js",
+    "main.js.map": "/yaziTura/static/js/main.82be9fcb.chunk.js.map",
+    "runtime~main.js": "/yaziTura/static/js/runtime~main.0857b46c.js",
+    "runtime~main.js.map": "/yaziTura/static/js/runtime~main.0857b46c.js.map",
+    "static/js/2.5af7eab3.chunk.js": "/yaziTura/static/js/2.5af7eab3.chunk.js",
+    "static/js/2.5af7eab3.chunk.js.map": "/yaziTura/static/js/2.5af7eab3.chunk.js.map",
+    "index.html": "/yaziTura/index.html",
+    "precache-manifest.b2c56252b2ddb30c9f90eb57d3ab3ca6.js": "/yaziTura/precache-manifest.b2c56252b2ddb30c9f90eb57d3ab3ca6.js",
+    "service-worker.js": "/yaziTura/service-worker.js",
+    "static/css/main.6f842b94.chunk.css.map": "/yaziTura/static/css/main.6f842b94.chunk.css.map",
+    "static/media/1-lira-tura.png": "/yaziTura/static/media/1-lira-tura.7c42669a.png",
+    "static/media/1-lira-yazi.png": "/yaziTura/static/media/1-lira-yazi.9b70882e.png"
+  }
+}
